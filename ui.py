@@ -1,5 +1,15 @@
 import tkinter as tk
 
+#Defining functions
+
+
+#Define test function
+
+def test():
+    print(forename_field.get())
+
+
+
 #Create window and define parameters
 
 window = tk.Tk()
@@ -11,6 +21,7 @@ window.resizable(False, False)
 
 #Window Elements
 
+
 #Title
 titleName = tk.Label(window, text="Pantalicious Pantaloons", font=("Papyrus", 24, "bold"))
 titleName.pack()
@@ -19,7 +30,8 @@ titleName.pack()
 subTitle = tk.Label(window, text="Order your pantaloons today!", font=("Papyrus", 16, "italic"))
 subTitle.pack()
 
-#checkboxes
+
+#Checkboxes
 
 #Blue
 blue_pantaloon = tk.IntVar()
@@ -35,6 +47,31 @@ red_pantaloon_button.pack()
 cream_pantaloon = tk.IntVar()
 cream_pantaloon_button = tk.Checkbutton(window, text="Cream", variable=cream_pantaloon, onvalue=1, offvalue=0)
 cream_pantaloon_button.pack()
+
+
+#Text fields
+#To get variable you nee to use .get from the widget :)
+
+#Forename
+forename_field = tk.Entry(window)
+forename_field.pack()
+
+
+#Submit button
+submit_button = tk.Button(window, text="Submit", command=test, background="red", activebackground="pink")
+submit_button.pack()
+
+#Database stuff
+
+
+
+
+
+
+
+
+
+
 
 
 
