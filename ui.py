@@ -50,12 +50,19 @@ cream_pantaloon_button.pack()
 
 
 #Text fields
-#To get variable you nee to use .get from the widget :)
+#To get variable you nee to use .get from the widget :)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 #Forename
+
 forename_field = tk.Entry(window)
 forename_field.pack()
 
+#Surname
+surname_field = tk.Entry(window)
+surname_field.pack()
+
+
+#Button!!!!!!
 
 #Submit button
 submit_button = tk.Button(window, text="Submit", command=test, background="red", activebackground="pink")
