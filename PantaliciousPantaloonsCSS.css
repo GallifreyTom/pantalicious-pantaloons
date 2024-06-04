@@ -1,0 +1,17 @@
+h1 { 
+    font-family: Papyrus, fantasy;
+    text-align: center;
+}
+
+h2 { 
+    font-family: Papyrus, fantasy;
+    text-align: center;
+}
+
+h3 { 
+    font-family: Papyrus, fantasy;
+    text-align: center;
+}
+
+div.inline { float:left; }
+.clearBoth { clear:both; }
