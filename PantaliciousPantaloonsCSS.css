@@ -13,5 +13,18 @@ h3 {
     text-align: center;
 }
 
-div.inline { float:left; }
+*:not(i) {
+    color:magenta;
+}
+
+div.inline { 
+    float:left;
+    border-color: blueviolet;
+    padding: 5px;
+    margin: 5px;
+    border-width: 5px;
+    border-style: solid;
+    width: fit-content;
+    border-radius: 30px;
+}
 .clearBoth { clear:both; }
